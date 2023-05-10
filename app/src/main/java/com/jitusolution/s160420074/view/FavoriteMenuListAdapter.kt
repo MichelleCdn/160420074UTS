@@ -36,6 +36,7 @@ class FavoriteMenuListAdapter(val favMenuList:ArrayList<FavMenu>) : RecyclerView
             txtNamaMakananMenuFav.text = favoriteMenu.nama
             txtDescFoodMenuFav.text = favoriteMenu.description
             txtLokasiMenuFav.text = favoriteMenu.lokasi
+            
 
 
             imageViewMenuFav.loadImage(favoriteMenu.photourl, progressBarMenuFav)
